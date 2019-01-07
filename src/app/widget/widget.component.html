@@ -1,0 +1,24 @@
+<div class="element-bg-img"><img src="assets/1.jpg" alt="" class="img-responsive"> </div>
+<div class="element-left-bottom">
+  <div class="ele-strip">
+    <ul>
+      <ng-container *ngIf="itemsTypes;  else loadingTemplate">
+        <li *ngFor="let itemType of itemsTypes ; index as j; last as isLast;" [ngClass]="{'anc-bor': isLast}"><a href="#" (click)="changeWidgetItemType(itemType)">{{itemType}}</a></li>
+      </ng-container>
+    </ul>
+  </div>
+  <div class="village">
+    <h3>Гостиницы и информация</h3>
+    <span class="line"> </span>
+    <div class="activity_box">
+      <div class="scrollbar" id="style-2">
+        <ng-container *ngIf="items?.length > 0; else loadingTemplate">
+          <ng-container *ngFor="let item of items | selectedType: widgetItemType; index as i">
+            <app-widget-item [widgetItem] = item (click)="nextSelectedWidgetItem(item)"></app-widget-item>
+          </ng-container>
+        </ng-container>
+        <ng-template #loadingTemplate>загрузка основной информации...</ng-template>
+      </div>
+    </div>
+  </div>
+</div>
