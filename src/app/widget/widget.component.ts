@@ -1,3 +1,5 @@
+// https://ptruskovsky.github.io/ang111/
+// https://github.com/ptruskovsky/ang111
 import {Component, OnDestroy, OnInit} from '@angular/core';
 import {Subscription} from 'rxjs';
 import { IWidgetItem} from '../data/widget-items';
