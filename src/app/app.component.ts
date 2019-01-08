@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { IWidgetItem, widgetItems } from './data/widget-items';
 
 @Component({
   selector: 'app-root',

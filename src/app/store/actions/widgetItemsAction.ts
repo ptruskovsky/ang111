@@ -1,4 +1,4 @@
-import {IWidgetItem} from '../../data/widget-items';
+import {IWidgetItem} from '../../widget-item/IWidgetItem';
 
 export const GET_WIDGET_ITEMS_PENDING = 'GET_WIDGET_ITEMS_PENDING';
 export const GET_WIDGET_ITEMS_SUCCESS = 'GET_WIDGET_ITEMS_SUCCESS';

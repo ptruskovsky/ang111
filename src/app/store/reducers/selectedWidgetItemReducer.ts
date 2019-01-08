@@ -1,6 +1,6 @@
-import {IWidgetItem} from '../../data/widget-items';
 import {GET_SELECTED_WIDGET_ITEM_ERROR, GET_SELECTED_WIDGET_ITEM_PENDING, GET_SELECTED_WIDGET_ITEM_SUCCESS}
 from '../actions/selectedWidgetItemAction';
+import {IWidgetItem} from '../../widget-item/IWidgetItem';
 
 const initialState: IWidgetItem = {} as IWidgetItem;
 

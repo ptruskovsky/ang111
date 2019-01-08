@@ -1,5 +1,5 @@
-import {IWidgetItem} from '../../data/widget-items';
 import {GET_WIDGET_ITEMS_ERROR, GET_WIDGET_ITEMS_PENDING, GET_WIDGET_ITEMS_SUCCESS} from '../actions/widgetItemsAction';
+import {IWidgetItem} from '../../widget-item/IWidgetItem';
 
 const initialState: IWidgetItem[] = [];
 

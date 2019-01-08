@@ -1,7 +1,7 @@
 import {widgetItemsReducer} from './reducers/widgetItemsReducer';
-import {IWidgetItem} from '../data/widget-items';
 import {ActionReducerMap} from '@ngrx/store';
 import {selectedWidgetItemReducer} from './reducers/selectedWidgetItemReducer';
+import {IWidgetItem} from '../widget-item/IWidgetItem';
 
 export interface IStore {
     widgetItems: IWidgetItem[];

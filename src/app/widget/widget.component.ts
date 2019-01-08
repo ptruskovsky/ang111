@@ -2,11 +2,11 @@
 // https://github.com/ptruskovsky/ang111
 import {Component, OnDestroy, OnInit} from '@angular/core';
 import {Subscription} from 'rxjs';
-import { IWidgetItem} from '../data/widget-items';
 import {IStore} from '../store';
 import {GetWidgetItemsPending} from '../store/actions/widgetItemsAction';
 import {Store} from '@ngrx/store';
 import {GetSelectedWidgetItemPending} from '../store/actions/selectedWidgetItemAction';
+import {IWidgetItem} from '../widget-item/IWidgetItem';
 
 @Component({
   selector: 'app-widget',

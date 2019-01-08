@@ -1,5 +1,5 @@
 import { Pipe, PipeTransform } from '@angular/core';
-import { IWidgetItem } from '../data/widget-items';
+import {IWidgetItem} from '../widget-item/IWidgetItem';
 
 @Pipe({
   name: 'typeFilter'

@@ -1,8 +1,8 @@
 import {Component, OnDestroy, OnInit} from '@angular/core';
 import {Subscription} from 'rxjs';
-import {IWidgetItem} from '../data/widget-items';
 import {Store} from '@ngrx/store';
 import {IStore} from '../store';
+import {IWidgetItem} from '../widget-item/IWidgetItem';
 
 @Component({
   selector: 'app-weather',

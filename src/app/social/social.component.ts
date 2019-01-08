@@ -1,8 +1,8 @@
 import {Component, OnDestroy, OnInit} from '@angular/core';
 import {Subscription} from 'rxjs';
-import {IWidgetItem} from '../data/widget-items';
 import {IStore} from '../store';
 import {Store} from '@ngrx/store';
+import {IWidgetItem} from '../widget-item/IWidgetItem';
 
 @Component({
   selector: 'app-social',
